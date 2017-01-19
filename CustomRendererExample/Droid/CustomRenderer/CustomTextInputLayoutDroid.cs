@@ -6,7 +6,7 @@ using CustomRendererExample.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly:ExportRenderer(typeof(CustomTextInputLayout), typeof(CustomTextInputLayoutDroid))]
+[assembly: ExportRenderer(typeof(CustomTextInputLayout), typeof(CustomTextInputLayoutDroid))]
 namespace CustomRendererExample.Droid
 {
 	public class CustomTextInputLayoutDroid : ViewRenderer<CustomTextInputLayout, TextInputLayout>
@@ -26,12 +26,12 @@ namespace CustomRendererExample.Droid
 			formsControl = Element as CustomTextInputLayout;
 			textInputLayout = CreateNativeControl();
 
-			//textInputLayout.EditText.SetTextColor(Android.Graphics.Color.Blue);
-			textInputLayout.EditText.SetHintTextColor(Android.Graphics.Color.Red);
-
-			textInputLayout.EditText.InputType = InputTypes.ClassText | InputTypes.TextVariationEmailAddress;
-
-			textInputLayout.EditText.SetSingleLine(true);
+			textInputLayout.EditText.Text = formsControl.Text;
+			textInputLayout.EditText.SetHintTextColor(Android.Graphics.Color.Blue);
+			textInputLayout.Hint = formsControl.PlaceHolder;
+			textInputLayout.EditText.SetTextColor(formsControl.TextColor.ToAndroid());
+			textInputLayout.EditText.InputType = formsControl.IsPassword ? InputTypes.TextVariationPassword | InputTypes.ClassText : formsControl.Keyboard.ToNative();
+			textInputLayout.EditText.SetTextSize(Android.Util.ComplexUnitType.Dip, formsControl.FontSize);
 
 			SetNativeControl(textInputLayout);
 		}

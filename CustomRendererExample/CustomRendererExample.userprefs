@@ -1,20 +1,12 @@
-﻿<Properties StartupConfiguration="{08A73CB3-6230-4C3C-8CE5-8EC7161965D9}|Default">
+﻿<Properties StartupConfiguration="{C967488C-1CBB-4024-B9C3-8F05C6090901}|Default">
   <MonoDevelop.Ide.ItemProperties.CustomRendererExample.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" AndroidDesignerPreferredTheme="MyTheme" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CustomRendererExample/View/CustomRendererExamplePage.xaml">
     <Files>
-      <File FileName="CustomRendererExample/App.xaml.cs" Line="29" Column="2" />
-      <File FileName="CustomRendererExample/View/CustomRendererExamplePage.xaml" Line="4" Column="13" />
-      <File FileName="CustomRendererExample/CustomRenderer/CustomTextInputLayout.cs" Line="5" Column="43" />
-      <File FileName="Droid/CustomRenderer/CustomTextInputLayoutDroid.cs" Line="45" Column="3" />
-      <File FileName="Droid/Resources/drawable/TextInputLayoutDroid.xml" Line="12" Column="41" />
+      <File FileName="CustomRendererExample/App.xaml.cs" Line="19" Column="29" />
+      <File FileName="CustomRendererExample/View/CustomRendererExamplePage.xaml" Line="16" Column="1" />
+      <File FileName="Droid/CustomRenderer/CustomTextInputLayoutDroid.cs" Line="36" Column="38" />
+      <File FileName="Droid/Resources/drawable/TextInputLayoutDroid.xml" Line="2" Column="47" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CustomRendererExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ED1A552F-9019-4843-BBF3-6BEA5FBE1BB5" />

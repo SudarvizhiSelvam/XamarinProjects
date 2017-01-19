@@ -3,10 +3,10 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_email_layout">
+        android:id="@+id/text_email_layout"
+		android:theme="@style/MyTheme">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/text_email"
-            android:hint="Email Address" />
+            android:singleLine="true" />
 </android.support.design.widget.TextInputLayout>

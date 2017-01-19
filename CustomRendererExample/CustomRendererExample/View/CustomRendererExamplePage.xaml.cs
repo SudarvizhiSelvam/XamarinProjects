@@ -7,6 +7,7 @@ namespace CustomRendererExample
 		public CustomRendererExamplePage()
 		{
 			InitializeComponent();
+			//BindingContaxt = 
 		}
 	}
 }

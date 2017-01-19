@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CustomRendererExample" x:Class="CustomRendererExample.CustomRendererExamplePage">
-
-	<StackLayout>
-		<local:CustomTextInputLayout/>
-		<Label Text="Anbu"/>
-		<Switch/>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:CustomRendererExample" 
+		x:Class="CustomRendererExample.CustomRendererExamplePage"
+		xmlns:textInputLayout="clr-namespace:Android.Support.Design.Widget;assembly=Xamarin.Android.Support.Design;targetPlatform=Android"
+		xmlns:androidWidget="clr-namespace:Android.Widget;assembly=Mono.Android;targetPlatform=Android"
+		xmlns:formsandroid="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Platform.Android;targetPlatform=Android">
+	<StackLayout BackgroundColor="White">
+<!--		<local:CustomTextInputLayout PlaceHolder="Name" TextColor="White" Keyboard="Numeric"/>-->
+<!--		<textInputLayout:TextInputLayout x:Arguments="{x:Static formsandroid:Forms.Context}">-->
+			<androidWidget:EditText x:Arguments="{x:Static formsandroid:Forms.Context}" Hint="Anbu" Text="Welcome"/>
+<!--		</textInputLayout:TextInputLayout>-->
 	</StackLayout>
 </ContentPage>
