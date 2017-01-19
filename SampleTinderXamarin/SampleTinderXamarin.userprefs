@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{569DD71E-04AF-45EF-9712-A2AC937B7199}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleTinderXamarin/MainPageViewModel.cs">
+    <Files>
+      <File FileName="SampleTinderXamarin/SampleTinderXamarinPage.xaml" Line="1" Column="1" />
+      <File FileName="SampleTinderXamarin/SampleTinderXamarinPage.xaml.cs" Line="3" Column="30" />
+      <File FileName="SampleTinderXamarin/MainPageViewModel.cs" Line="54" Column="77" />
+      <File FileName="SampleTinderXamarin/MainPage.cs" Line="1" Column="1" />
+      <File FileName="SampleTinderXamarin/CardStackView.cs" Line="1" Column="1" />
+      <File FileName="SampleTinderXamarin/App.xaml.cs" Line="11" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SampleTinderXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.947E7CD0-DAE8-4978-84B8-6F32F06CD1C4" />
+</Properties>

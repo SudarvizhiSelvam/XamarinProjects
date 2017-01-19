@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{8D1E6F7E-AF06-4CCA-8EB9-DBC23F562A8C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="XamarinPieChart/Pages/NormalPage.cs" Line="10" Column="7" />
+      <File FileName="XamarinPieChart/App.xaml.cs" Line="16" Column="21" />
+      <File FileName="XamarinPieChart/Pages/SimplestPage.cs" Line="9" Column="7" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaModel.cs" Line="73" Column="14" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaCell.xaml" Line="2" Column="10" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaCell.xaml.cs" Line="8" Column="42" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaHeaderView.xaml" Line="2" Column="13" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaHeaderView.xaml.cs" Line="8" Column="51" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaPage.xaml" Line="13" Column="45" />
+      <File FileName="XamarinPieChart/Pages/Area/AreaPage.xaml.cs" Line="23" Column="4" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="18" />
+      <File FileName="iOS/AppDelegate.cs" Line="22" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinPieChart" expanded="True">
+            <Node name="XamarinPieChart" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Area" expanded="True">
+                  <Node name="AreaPage.xaml" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="XamarinPieChart.iOS" expanded="True">
+              <Node name="Packages" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamarinPieChart.Droid PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.XamarinPieChart.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CCFC6666-DBEF-435C-885A-3EBA13406D9E" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
