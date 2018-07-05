@@ -1,11 +1,14 @@
-# Autosave files
+#Autosave files
 *~
 
-# build
+# Build/test output
 [Oo]bj/
 [Bb]in/
-packages/
 TestResults/
+
+# VS sometimes writes these for no apparent      reason
+_UpgradeReport_Files
+UpgradeLog.*
 
 # globs
 Makefile.in
@@ -16,7 +19,6 @@ Makefile.in
 *.pidb
 *.userprefs
 *.usertasks
-*.vs
 config.log
 config.make
 config.status
@@ -28,14 +30,30 @@ autom4te.cache/
 tarballs/
 test-results/
 Thumbs.db
+.vs/
+*.ide
 
-# Mac bundle stuff
+
+#Mac bundle stuff
 *.dmg
 *.app
 
-# resharper
+*.swp
+*.nib
+*.pfx
+
+# ReSharper
 *_Resharper.*
 *.Resharper
 
 # dotCover
 *.dotCover
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of     Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild    target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+!**/packages/repositories.config
